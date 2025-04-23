@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF05B36-ADC2-4FA7-9141-A5F031964BDA}|Demarco.Repository\\Demarco.Repository.csproj|c:\\users\\rafae\\onedrive\\desktop\\teste\\desafio - demarco 1\\desafio - demarco\\src\\demarco.repository\\demarcocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF05B36-ADC2-4FA7-9141-A5F031964BDA}|Demarco.Repository\\Demarco.Repository.csproj|solutionrelative:demarco.repository\\demarcocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F0F18E5-9662-404F-8648-E3D4B9BFF0FF}|Demarco.API\\Demarco.API.csproj|c:\\users\\rafae\\onedrive\\desktop\\teste\\desafio - demarco 1\\desafio - demarco\\src\\demarco.api\\controllers\\empregadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F0F18E5-9662-404F-8648-E3D4B9BFF0FF}|Demarco.API\\Demarco.API.csproj|solutionrelative:demarco.api\\controllers\\empregadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F0F18E5-9662-404F-8648-E3D4B9BFF0FF}|Demarco.API\\Demarco.API.csproj|c:\\users\\rafae\\onedrive\\desktop\\teste\\desafio - demarco 1\\desafio - demarco\\src\\demarco.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F0F18E5-9662-404F-8648-E3D4B9BFF0FF}|Demarco.API\\Demarco.API.csproj|solutionrelative:demarco.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366D3294-263F-4C01-BC6C-1806C385B484}|Demarco.Application\\Demarco.Application.csproj|c:\\users\\rafae\\onedrive\\desktop\\teste\\desafio - demarco 1\\desafio - demarco\\src\\demarco.application\\empregadoapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{366D3294-263F-4C01-BC6C-1806C385B484}|Demarco.Application\\Demarco.Application.csproj|solutionrelative:demarco.application\\empregadoapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\teste\\desafio - demarco 1\\desafio - demarco\\src\\demarco.web\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\teste\\desafio - demarco 1\\desafio - demarco\\src\\demarco.web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\teste\\desafio - demarco 1\\desafio - demarco\\src\\demarco.web\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\teste\\desafio - demarco 1\\desafio - demarco\\src\\demarco.web\\content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\teste\\desafio - demarco 1\\desafio - demarco\\src\\demarco.web\\bundle.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\bundle.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 27,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cb4d394c-6408-4607-8c42-0910d3147a4e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{cb4d394c-6408-4607-8c42-0910d3147a4e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{bdada759-5db7-402f-96e3-402b17c8c5b4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{bdada759-5db7-402f-96e3-402b17c8c5b4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{cb4d394c-6408-4607-8c42-0910d3147a4e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{93a69444-e846-4571-9e03-a8433ad9ddf9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{cb4d394c-6408-4607-8c42-0910d3147a4e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{93a69444-e846-4571-9e03-a8433ad9ddf9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{cb4d394c-6408-4607-8c42-0910d3147a4e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{cb4d394c-6408-4607-8c42-0910d3147a4e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{93a69444-e846-4571-9e03-a8433ad9ddf9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1239926542:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DemarcoContext.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Repository\\DemarcoContext.cs",
+              "RelativeDocumentMoniker": "Demarco.Repository\\DemarcoContext.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Repository\\DemarcoContext.cs",
+              "RelativeToolTip": "Demarco.Repository\\DemarcoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:04:31.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpregadoController.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.API\\Controllers\\EmpregadoController.cs",
+              "RelativeDocumentMoniker": "Demarco.API\\Controllers\\EmpregadoController.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.API\\Controllers\\EmpregadoController.cs",
+              "RelativeToolTip": "Demarco.API\\Controllers\\EmpregadoController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:03:48.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpregadoApp.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Application\\EmpregadoApp.cs",
+              "RelativeDocumentMoniker": "Demarco.Application\\EmpregadoApp.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Application\\EmpregadoApp.cs",
+              "RelativeToolTip": "Demarco.Application\\EmpregadoApp.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:03:14.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Demarco.API\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Demarco.API\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T22:02:49.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Site.Master",
+              "RelativeDocumentMoniker": "Demarco.Web\\Site.Master",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Site.Master",
+              "RelativeToolTip": "Demarco.Web\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-23T21:59:46.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Demarco.Web\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Login.aspx.cs",
+              "RelativeToolTip": "Demarco.Web\\Login.aspx.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T21:34:46.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Bundle.config",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Bundle.config",
+              "RelativeDocumentMoniker": "Demarco.Web\\Bundle.config",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Bundle.config",
+              "RelativeToolTip": "Demarco.Web\\Bundle.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-23T21:29:06.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Content\\Login.css",
+              "RelativeDocumentMoniker": "Demarco.Web\\Content\\Login.css",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Content\\Login.css",
+              "RelativeToolTip": "Demarco.Web\\Content\\Login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-23T21:17:27.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Login.aspx",
+              "RelativeDocumentMoniker": "Demarco.Web\\Login.aspx",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Teste\\Desafio - Demarco 1\\Desafio - Demarco\\src\\Demarco.Web\\Login.aspx",
+              "RelativeToolTip": "Demarco.Web\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-23T21:12:22.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 64,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
