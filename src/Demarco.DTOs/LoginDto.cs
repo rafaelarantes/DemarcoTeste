@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Demarco.DTOs
 {
-    public class LoginDto
+    public class LoginDTO
     {
         public string Usuario { get; set; }
 

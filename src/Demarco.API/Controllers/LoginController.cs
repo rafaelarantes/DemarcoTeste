@@ -7,6 +7,8 @@ using System;
 using Demarco.DTOs;
 using Microsoft.Extensions.Configuration;
 using System.Net;
+using Demarco.Application;
+using Demarco.Application.Interfaces;
 
 namespace Demarco.API.Controllers
 {
@@ -14,36 +16,24 @@ namespace Demarco.API.Controllers
     public class LoginController : Controller
     {
         private readonly JwtSettings _jwtSettings;
+        private readonly ILoginApp _loginApp;
 
-        public LoginController(IConfiguration configuration)
+        public LoginController(IConfiguration configuration,
+                               ILoginApp loginApp)
         {
             var jwtSection = configuration.GetSection("JwtSettings");
             _jwtSettings =  jwtSection.Get<JwtSettings>();
+
+            _loginApp = loginApp;
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] LoginDto login)
+        public IActionResult Post([FromBody] LoginDTO loginDTO)
         {
-            if (login.Usuario == "admin" && login.Senha == "123")
-            {
-                var tokenHandler = new JwtSecurityTokenHandler();
-                var key = Encoding.ASCII.GetBytes(_jwtSettings.SecretKey);
+            var token = _loginApp.Logar(loginDTO, _jwtSettings);
 
-                var tokenDescriptor = new SecurityTokenDescriptor
-                {
-                    Subject = new ClaimsIdentity(new[]
-                    {
-                        new Claim(ClaimTypes.Name, login.Usuario)
-                    }),
-                    Expires = DateTime.UtcNow.AddHours(1),
-                    Issuer = _jwtSettings.Issuer,
-                    Audience = _jwtSettings.Audience,
-                    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-                };
-
-                var token = tokenHandler.CreateToken(tokenDescriptor);
-                return Ok(tokenHandler.WriteToken(token));
-            }
+            if (!string.IsNullOrWhiteSpace(token))
+                return Ok(token);
 
             return Unauthorized();
         }

@@ -92,6 +92,8 @@ namespace Demarco.API
 
             services.AddTransient<IEmpregadoRepository, EmpregadoRepository>();
             services.AddTransient<IEmpregadoApp, EmpregadoApp>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            services.AddTransient<ILoginApp, LoginApp>();
 
             services.AddCors();
         }

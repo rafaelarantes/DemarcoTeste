@@ -1,4 +1,8 @@
-﻿namespace Demarco.API
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Demarco.Application
 {
     public class JwtSettings
     {
