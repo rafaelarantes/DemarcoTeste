@@ -17,10 +17,28 @@ namespace Demarco.Application
             this._empregadoRepository = repository;
         }
 
-        public async Task<bool> Salvar(EmpregadoDTO empregado)
+        public async Task<bool> Incluir(EmpregadoDTO empregadoDTO)
         {
-            Empregado emp = new Empregado(empregado.ID, empregado.CPF, empregado.Nome, empregado.DataNascimento);
+            Empregado emp = new Empregado(empregadoDTO.ID, empregadoDTO.CPF, empregadoDTO.Nome, empregadoDTO.DataNascimento);
             _empregadoRepository.Add(emp);
+            return await _empregadoRepository.SaveChangesAsync();
+        }
+
+        public async Task<bool> Atualizar(EmpregadoDTO empregadoDTO)
+        {
+            var empregado = await _empregadoRepository.GetAsync(empregadoDTO.ID);
+
+            if (empregado == null)
+            {
+                return await Task.FromResult(false);
+            }
+
+            empregado.AtualizarCPF(empregadoDTO.CPF);
+            empregado.AtualizarNome(empregadoDTO.Nome);
+            empregado.AtualizarDataNascimento(empregadoDTO.DataNascimento); 
+
+            _empregadoRepository.UpDate(empregado);
+
             return await _empregadoRepository.SaveChangesAsync();
         }
 
@@ -33,6 +51,22 @@ namespace Demarco.Application
                 Nome = e.Nome,
                 DataNascimento = e.DataNascimento
             });
+        }
+
+        public EmpregadoDTO Recuperar(int id)
+        {
+            var empregado = _empregadoRepository.GetAsync(id).Result;
+            if (empregado != null)
+            {
+                return new EmpregadoDTO
+                {
+                    ID = empregado.ID,
+                    CPF = empregado.CPF,
+                    Nome = empregado.Nome,
+                    DataNascimento = empregado.DataNascimento
+                };
+            }
+            return null;
         }
     }
 }

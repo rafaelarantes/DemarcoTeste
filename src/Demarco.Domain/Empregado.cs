@@ -20,5 +20,20 @@ namespace Demarco.Domain
 
         public Empregado() { }
 
+        public void AtualizarCPF(string cpf)
+        {
+            this.CPF = cpf;
+        }
+
+        public void AtualizarNome(string nome)
+        {
+            this.Nome = nome;
+        }
+        
+        public void AtualizarDataNascimento(DateTime dataNascimento)
+        {
+            this.DataNascimento = dataNascimento;
+        }
+
     }
 }

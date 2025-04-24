@@ -197,9 +197,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Empregado.css" />
     <Content Include="Content\Login.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="SalvarEmpregado.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Empregado.aspx" />
     <Content Include="favicon.ico" />
@@ -272,6 +274,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SalvarEmpregado.aspx.cs">
+      <DependentUpon>SalvarEmpregado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalvarEmpregado.aspx.designer.cs">
+      <DependentUpon>SalvarEmpregado.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

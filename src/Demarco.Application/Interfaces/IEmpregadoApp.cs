@@ -6,7 +6,12 @@ namespace Demarco.Application.Interfaces
 {
     public interface IEmpregadoApp
     {
-        Task<bool> Salvar(EmpregadoDTO empregado);
+        Task<bool> Incluir(EmpregadoDTO empregadoDTO);
+
+        Task<bool> Atualizar(EmpregadoDTO empregadoDTO);
+
         IEnumerable<EmpregadoDTO> RecuperarTodos();
+
+        EmpregadoDTO Recuperar(int id);
     }
 }

@@ -1,0 +1,10 @@
+﻿.salvar-empregado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.salvar-empregado .row {
+    margin-bottom: 20px;
+}
+
