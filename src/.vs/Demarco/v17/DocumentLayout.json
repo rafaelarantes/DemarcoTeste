@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F0F18E5-9662-404F-8648-E3D4B9BFF0FF}|Demarco.API\\Demarco.API.csproj|c:\\users\\rafae\\onedrive\\desktop\\projetos\\demarcoteste\\src\\demarco.api\\controllers\\empregadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F0F18E5-9662-404F-8648-E3D4B9BFF0FF}|Demarco.API\\Demarco.API.csproj|solutionrelative:demarco.api\\controllers\\empregadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\projetos\\demarcoteste\\src\\demarco.web\\salvarempregado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\salvarempregado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\projetos\\demarcoteste\\src\\demarco.web\\salvarempregado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\salvarempregado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\projetos\\demarcoteste\\src\\demarco.web\\salvarempregado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\salvarempregado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{7F0F18E5-9662-404F-8648-E3D4B9BFF0FF}|Demarco.API\\Demarco.API.csproj|c:\\users\\rafae\\onedrive\\desktop\\projetos\\demarcoteste\\src\\demarco.api\\controllers\\empregadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F0F18E5-9662-404F-8648-E3D4B9BFF0FF}|Demarco.API\\Demarco.API.csproj|solutionrelative:demarco.api\\controllers\\empregadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\projetos\\demarcoteste\\src\\demarco.web\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\projetos\\demarcoteste\\src\\demarco.web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|c:\\users\\rafae\\onedrive\\desktop\\projetos\\demarcoteste\\src\\demarco.web\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6D3013-8D5C-4C98-AD3D-4C0ED9419391}|Demarco.Web\\Demarco.Web.csproj|solutionrelative:demarco.web\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,46 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.Web\\Login.aspx",
-              "RelativeDocumentMoniker": "Demarco.Web\\Login.aspx",
-              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.Web\\Login.aspx",
-              "RelativeToolTip": "Demarco.Web\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-24T18:35:03.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmpregadoController.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.API\\Controllers\\EmpregadoController.cs",
-              "RelativeDocumentMoniker": "Demarco.API\\Controllers\\EmpregadoController.cs",
-              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.API\\Controllers\\EmpregadoController.cs",
-              "RelativeToolTip": "Demarco.API\\Controllers\\EmpregadoController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAiwFIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:26:17.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SalvarEmpregado.aspx.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.Web\\SalvarEmpregado.aspx.cs",
               "RelativeDocumentMoniker": "Demarco.Web\\SalvarEmpregado.aspx.cs",
               "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.Web\\SalvarEmpregado.aspx.cs",
               "RelativeToolTip": "Demarco.Web\\SalvarEmpregado.aspx.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAiwCAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:20:19.961Z",
+              "WhenOpened": "2025-04-24T21:18:01.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SalvarEmpregado.aspx",
               "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.Web\\SalvarEmpregado.aspx",
               "RelativeDocumentMoniker": "Demarco.Web\\SalvarEmpregado.aspx",
@@ -185,7 +163,46 @@
               "RelativeToolTip": "Demarco.Web\\SalvarEmpregado.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-24T18:20:16.78Z",
+              "WhenOpened": "2025-04-24T21:10:28.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpregadoController.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.API\\Controllers\\EmpregadoController.cs",
+              "RelativeDocumentMoniker": "Demarco.API\\Controllers\\EmpregadoController.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.API\\Controllers\\EmpregadoController.cs",
+              "RelativeToolTip": "Demarco.API\\Controllers\\EmpregadoController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAASwFIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:06:10.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.Web\\packages.config",
+              "RelativeDocumentMoniker": "Demarco.Web\\packages.config",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.Web\\packages.config",
+              "RelativeToolTip": "Demarco.Web\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-24T21:05:25.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.Web\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Demarco.Web\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Desktop\\Projetos\\DemarcoTeste\\src\\Demarco.Web\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Demarco.Web\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:05:17.156Z",
               "EditorCaption": ""
             }
           ]

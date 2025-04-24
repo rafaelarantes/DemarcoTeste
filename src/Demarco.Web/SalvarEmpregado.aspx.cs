@@ -11,6 +11,8 @@ namespace Demarco.Web
     public partial class SalvarEmpregado : System.Web.UI.Page
     {
         private readonly string apiUrl = ConfigurationManager.AppSettings["apiUrl"];
+        public string titulo = "Cadastrar empregado";
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["JwtToken"] == null)
@@ -23,22 +25,42 @@ namespace Demarco.Web
             {
                 if (Request.QueryString["id"] != null)
                 {
+                    titulo = "Atualizar empregado";
+
                     CarregarEmpregado(Request.QueryString["id"]);
                 }
             }
         }
-        
+
         protected void btnSalvar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtCpf.Text))
+            {
+                lblMensagem.Text = "O campo CPF é obrigatório.";
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtNome.Text))
+            {
+                lblMensagem.Text = "O campo Nome é obrigatório.";
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtDataNascimento.Text))
+            {
+                lblMensagem.Text = "O campo Data de nascimento é obrigatório.";
+                return;
+            }
+
             var empregadoDTO = new EmpregadoDTO
             {
                 ID = string.IsNullOrWhiteSpace(txtID.Text) ? 0 : Convert.ToInt32(txtID.Text),
-                CPF = txtCpf.Text,
+                CPF = txtCpf.Text.Replace(".", "").Replace("-", ""),
                 Nome = txtNome.Text,
                 DataNascimento = DateTime.Parse(txtDataNascimento.Text)
             };
 
-            if(empregadoDTO.ID == 0)
+            if (empregadoDTO.ID == 0)
             {
                 IncluirEmpregado(empregadoDTO);
             }
@@ -57,12 +79,12 @@ namespace Demarco.Web
                 client.DefaultRequestHeaders.Accept.Add(
                     new MediaTypeWithQualityHeaderValue("application/json"));
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Session["JwtToken"] as string);
-                
+
                 var json = JsonConvert.SerializeObject(empregadoDTO);
                 var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
-                
+
                 HttpResponseMessage response = client.PostAsync("Empregado", content).Result;
-                
+
                 if (response.IsSuccessStatusCode)
                 {
                     Response.Redirect("Empregado.aspx");
@@ -111,7 +133,7 @@ namespace Demarco.Web
                     txtID.Text = empregadoDTO.ID.ToString();
                     txtCpf.Text = empregadoDTO.CPF;
                     txtNome.Text = empregadoDTO.Nome;
-                    txtDataNascimento.Text = empregadoDTO.DataNascimento.ToString("dd/MM/yyyy");    
+                    txtDataNascimento.Text = empregadoDTO.DataNascimento.ToString("dd/MM/yyyy");
                 }
             }
         }
