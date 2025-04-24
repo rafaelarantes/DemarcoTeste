@@ -3,6 +3,7 @@ using Demarco.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Net;
 using System.Threading.Tasks;
 
@@ -66,10 +67,9 @@ namespace Demarco.API.Controllers
                 }
                 return BadRequest();
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-
             }
         }
 
@@ -86,7 +86,7 @@ namespace Demarco.API.Controllers
                 }
                 return BadRequest();
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }

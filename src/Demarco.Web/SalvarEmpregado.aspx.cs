@@ -21,12 +21,13 @@ namespace Demarco.Web
                 return;
             }
 
+            if(Request.QueryString["id"] != null)
+                titulo = "Atualizar empregado";
+
             if (!IsPostBack)
             {
                 if (Request.QueryString["id"] != null)
                 {
-                    titulo = "Atualizar empregado";
-
                     CarregarEmpregado(Request.QueryString["id"]);
                 }
             }
@@ -89,6 +90,11 @@ namespace Demarco.Web
                 {
                     Response.Redirect("Empregado.aspx");
                 }
+                else
+                {
+                    string responseBody = response.Content.ReadAsStringAsync().Result;
+                    lblMensagem.Text = responseBody.Replace("\"", "");
+                }
             }
         }
 
@@ -110,6 +116,11 @@ namespace Demarco.Web
                 if (response.IsSuccessStatusCode)
                 {
                     Response.Redirect("Empregado.aspx");
+                }
+                else
+                {
+                    string responseBody = response.Content.ReadAsStringAsync().Result;
+                    lblMensagem.Text = responseBody.Replace("\"", "");
                 }
             }
         }
