@@ -1,14 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-using System;
-using Demarco.DTOs;
-using Microsoft.Extensions.Configuration;
-using System.Net;
-using Demarco.Application;
+﻿using Demarco.Application;
 using Demarco.Application.Interfaces;
+using Demarco.DTOs;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace Demarco.API.Controllers
 {

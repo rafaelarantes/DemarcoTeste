@@ -24,7 +24,7 @@ namespace Demarco.Web
             var httpClient = new HttpClient();
 
             var content = new StringContent(
-                Newtonsoft.Json.JsonConvert.SerializeObject(new
+                JsonConvert.SerializeObject(new
                 {
                     usuario,
                     senha
@@ -34,6 +34,7 @@ namespace Demarco.Web
             );
 
             string apiUrl = ConfigurationManager.AppSettings["apiUrl"];
+
             var response = httpClient.PostAsync(apiUrl + "Login", content).Result;
             var responseString = response.Content.ReadAsStringAsync().Result;
 

@@ -17,5 +17,12 @@ namespace Demarco.Web
             estaLogado = !string.IsNullOrWhiteSpace(Session["JwtToken"] as string);
             usuario = Session["Usuario"] as string;
         }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("~/Login");
+        }
     }
 }

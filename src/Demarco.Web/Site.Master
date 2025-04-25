@@ -58,6 +58,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <% if (this.estaLogado) { %>  
                            <li><a>Olá <%= this.usuario %>!</a></li>  
+                                              <%--<li><a runat="server" href="#" OnClick="btnLogout_Click">Logout</a></li>  --%>
+                            <li><asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" /></li>
                         <% } else { %>  
                            <li><a runat="server" href="~/Login">Login</a></li>  
                         <% } %>
